@@ -1,12 +1,14 @@
 # esphome-packages
-A collection of reusable esphome packages
+A collection of reusable esphome packages to make Sprinkler control via Esphome and Home Assistant
+# install
+Put Packages folder  into HA config/esphome and irrigation_example.yml rename into irrigation_example.yaml and put also there
 
 ## Package: JB Irrigation
 
 **Required hardware**: NodeMcuv2 and 4 relay board
 **Example config**: [irrigation_example.yml](irrigation_example.yml)
 
-Turns [JointBox Heating Controller](https://easyeda.com/jointbox/jb-heating-controller_copy) into irrigation controller. 
+Turns NodeMcu into irrigation controller. 
 
 ### Features
 
